@@ -32,7 +32,7 @@ export function Header() {
             Inicio
           </NavHashLink>
           <NavHashLink smooth to="#about" onClick={closeMenu}>
-            Acerca de
+            Acerca de mi
           </NavHashLink>
           {/* <NavHashLink smooth to="#contact" onClick={closeMenu}>
             Contacto
