@@ -17,21 +17,23 @@ export function About() {
     <Container id="about">
       <div className="about-text">
         <ScrollAnimation animateIn="fadeInLeft">
-          <h2>About me</h2>
+          <h2>Acerca de mi</h2>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
           <p>
-          For many years, I worked as a full-stack developer, creating websites and systems for various companies, both as an employee and by my own.
-          </p><br/>
+            En mis ultimos trabajos, me he especializado sobre todo en backend e infraestructura en la nube.
+          </p>
+          <br/>
           <p>
-          Recently, I have become heavily involved in development on the Amazon Web Services platform for digital transformation to the cloud, focusing on backend tasks such as migrating and building APIs, analyzing requirements, estimating timelines, and troubleshooting.
-          </p><br/>
+            Apegada a metodologías ágiles, buenas prácticas y con experiencia demostrada para entregar proyectos en tiempo y forma.
+          </p>
+          <br/>
           <p>
-          I am highly dedicated to my continuous learning and always pay close attention to detail in every development task.
+            Siempre en continuo aprendizaje, y recientemente tomando roles como líder de proyectos.
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000}>
-          <h3>My main skills:</h3>
+          <h3>Algunas habilidades:</h3>
         </ScrollAnimation>
         <div className="hard-skills">
         <div className="hability">

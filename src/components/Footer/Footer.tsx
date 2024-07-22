@@ -6,27 +6,25 @@ import githubIcon from '../../assets/github.svg'
 
 export function Footer() {
   return (
-    <Container className="footer">
-      <a href="https://natalialeal-dev.com" className="logo">
-        <span>www.natalialeal-dev.com</span>
-      </a>
-
-      <div className="social-media">
-        <a
-          href="https://www.linkedin.com/in/natalia-leal-56415580/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={linkedin} alt="Linkedin" />
-        </a>
-        <a
-          href="https://github.com/NataliaLeal91"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={githubIcon} alt="GitHub" />
-        </a>
-      </div>
-    </Container>
+    <div>
+      <Container className="footer">
+        <div className="social-media">
+          <a
+            href="https://www.linkedin.com/in/natalia-leal-56415580/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={linkedin} alt="Linkedin" />
+          </a>
+          <a
+            href="https://github.com/NataliaLeal91"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={githubIcon} alt="GitHub" />
+          </a>
+        </div>
+      </Container>
+    </div>
   )
 }

@@ -10,9 +10,6 @@ export function Project() {
     <Container id="project">
       <h2>My Projects</h2>
       <div className="projects">
-
-  
-
       <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>

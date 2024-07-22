@@ -8,19 +8,19 @@ export function Contact(){
 
   return(
     <Container id="contact">
-      <header>
-        <h2>Contact</h2>
+      {/* <header>
+        <h2>Contacto</h2>
       </header>
       <div className="contacts">
         <div>
         <a href="mailto:natalialeal.dev@gmail.com"><img src={emailIcon} alt="Email" /></a> 
-          <a href="mailto:natalialeal.dev@gmail.com">MAIL</a>
+          <a href="mailto:natalialeal.dev@gmail.com">EMAIL</a>
         </div>
         <div>
         <a href="tel:+529993267533"><img src={phoneIcon} alt="Phone No" /></a>
-          <a href="tel:+529993267533">PHONE</a>
+          <a href="tel:+529993267533">TELÉFONO</a>
         </div>  
-      </div>
+      </div> */}
     </Container>
   )
 }
