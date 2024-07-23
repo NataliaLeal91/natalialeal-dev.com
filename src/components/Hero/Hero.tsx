@@ -5,6 +5,9 @@ import { NavHashLink } from "react-router-hash-link"
 import linkedin from '../../assets/linkedin.svg'
 import githubIcon from '../../assets/github.svg'
 import Hello from '../../assets/Hello.gif'
+import commentCodeIcon from "../../assets/comment-code.png";
+
+
 export function Hero() {
   return (
     <Container id="home">
@@ -16,7 +19,7 @@ export function Hero() {
           <h1>Natalia Leal</h1>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}>
-          <h3>Desarrollo Backend</h3>
+          <h3>Desarrollo de Software</h3>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
           <p>Backend | Middleware | Web developer</p><br/>
@@ -24,7 +27,9 @@ export function Hero() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.8 * 1000}>
           <BrowserRouter>
-            <NavHashLink smooth to="#contact" className="button">?</NavHashLink>
+            <NavHashLink smooth to="#contact" className="button">
+              <img  src={commentCodeIcon} alt="" />
+            </NavHashLink>
           </BrowserRouter>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={1 * 1000}>
@@ -47,7 +52,7 @@ export function Hero() {
       </div>
       {/* <div className="hero-image">
         <ScrollAnimation animateIn="fadeInRight" delay={1 * 1000}>
-          <img src={Illustration} alt="Ilustração" />
+          <img src={Illustration}  />
         </ScrollAnimation>
       </div> */}
     </Container>
