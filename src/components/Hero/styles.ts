@@ -20,6 +20,11 @@ export const Container = styled.section`
       margin: 1rem 0;
     }
 
+    h4{
+      color:var(--purple);
+      margin: 1rem 0;
+    }
+
     
     p.small-resume {
       margin-bottom: 5rem;
