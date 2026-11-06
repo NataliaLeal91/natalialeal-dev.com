@@ -77,7 +77,8 @@ export const Container = styled.section`
 
   @media (max-width: 960px){
     display: block;
-    text-align: center;
+    text-align: left;
+    width: 100%;
     
     .hard-skills{
       justify-content: center;
